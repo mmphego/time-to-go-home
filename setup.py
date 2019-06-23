@@ -11,15 +11,15 @@ from setuptools import Command, find_packages, setup
 here = os.path.abspath(os.path.dirname(__file__))
 
 # Package meta-data.
-NAME = ""
-DESCRIPTION = ""
-URL = ""
+NAME = "time-to-go-home"
+DESCRIPTION = "Simple scripts that estimates the time it will take me to go home."
+URL = "https://github.com/mmphego/time-to-go-home"
 EMAIL = "mpho112@gmail.com"
 AUTHOR = "Mpho Mphego"
 REQUIRES_PYTHON = ">=3.6.0"
 VERSION = "0.0.4"
 REQUIRED = [
-
+    "googlemaps",
 ]
 
 try:
