@@ -11,8 +11,11 @@ A program to send desktop notifications.
 
 If running `XUbuntu`:
 *   `sudo apt install xfce4-notifyd`
+
 else:
 *   `sudo apt-get install libnotify-bin`
+
+then:
 
 `pip install -U .`
 
