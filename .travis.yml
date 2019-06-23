@@ -7,12 +7,9 @@ notifications:
   email: change
 
 python:
-  - 2.7
   - 3.6
 
-before_install:
-    - echo "Setup goes here"
 install:
-    - echo "Install goes here"
+    - pip install -U .
 script:
     - echo "Tests go here"
